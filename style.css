@@ -1,0 +1,50 @@
+body{
+	background-color:black;
+}
+
+div.container p.name{
+	color:white;
+	margin-top:330px;
+	font-size:25px;
+	text-align:center;
+}
+
+div.container ul{
+	margin-left:380px;
+}
+
+div.container ul li{
+	padding-top:15px;
+	padding-right:10px;
+}
+
+div.container ul li a.menu{
+	color:white;
+	list-style-type:none;
+	text-decoration:none;
+	font-size:18px;
+	opacity:0.60;
+	
+	-webkit-transition: all 600ms;
+	-moz-transition: all 600ms;
+	-ms-transition: all 600ms;
+	-o-transition: all 600ms;
+	transition:all 600ms;  
+	
+}
+
+div.container ul li a:hover{
+	cursor:pointer;
+	opacity:0.95;
+	
+	-webkit-transition: all 600ms;
+	-moz-transition: all 600ms;
+	-ms-transition: all 600ms;
+	-o-transition: all 600ms;
+	transition:all 600ms;  
+}
+
+div.container ul li img{
+	opacity:0.60;
+}
+
